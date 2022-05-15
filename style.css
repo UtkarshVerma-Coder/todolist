@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.963);
+    color: azure;
+}
+
+
+
+/* header */
+#inputtodo{
+    color: white;
+    background-color: #171717;
+    border: none;
+    appearance: none;
+    outline: none;
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#subbutt{
+    border: none;
+    appearance: none;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.749);
+    font-size: 15px;
+    outline: #f32a2a02;
+
+}
+
+
+
+/* Main */
+#text{
+    border: none;
+    appearance: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.749);
+    font-size: 15px;
+    outline: #f32a2a02;
+}
+
+main .actions button{
+    background-color: transparent;
+    border-width: 0ch;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main .actions button{
+    cursor: pointer;
+    padding-left: 11px;
+    
+}
+
+
+
+#edit{
+    color: aquamarine;
+    background-color: transparent;
+    border: none;
+}
+#delete{
+    color: #FF0833;
+    background-color: transparent;
+    border: none;
+}
+
+
+main .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+
+}
+
+#taskbox{
+    background-color: #171717;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#box{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 20PX;
+    max-width: 300px;
+    display: none;
+
+}
+#box button{
+    border: none;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #006ee6;
+    color: white;
+}
