@@ -1,12 +1,40 @@
+
+
+
 window.addEventListener("load",() =>{
     const form = document.querySelector("#new-task-form");
 
 
 
+
+
+    // When Alert box ok clicked
+    document.querySelector('#OK').onclick = function() {
+        document.getElementById('inputtodo').style.display = 'flex';
+        document.getElementById('subbutt').style.display = 'flex';
+        document.getElementById('box').style.display = 'none';
+        document.getElementById('taskbox').style.display = 'flex';
+        document.getElementById('edit').style.display = 'inline';
+        document.getElementById('delete').style.display = 'inline';
+        
+    }
+    // When Alert box ok clicked
+
+    
+    
     document.querySelector('#subbutt').onclick = function(){
         var inpt = document.getElementById("inputtodo").value
+        
+        
+        // Alerting on null value in input box
         if (!inpt) {
             document.getElementById('box').style.display = 'block';
+            document.getElementById('inputtodo').style.display = 'none';
+            document.getElementById('subbutt').style.display = 'none';
+            document.getElementById('taskbox').style.display = 'none';
+            document.getElementById('edit').style.display = 'none';
+            document.getElementById('delete').style.display = 'none';
+
         } else {
             document.getElementById('box').style.display = 'none';
             
